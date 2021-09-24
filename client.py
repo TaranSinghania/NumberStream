@@ -44,7 +44,7 @@ if __name__ == "__main__":
 	# Start listening on socket
 	clientSocket.listen(1)
 
-	print("The server is ready to receive")
+	print("The client is ready to receive")
 	
 	# Declaring bitmap
 	bitmap = [0]*512*1024*1024
@@ -55,7 +55,7 @@ if __name__ == "__main__":
 	# Start accepting on socket
 	connectionSocket, addr = clientSocket.accept()
 	
-	print("The server is receiving!")
+	print("The client is receiving!")
 
 	while(i):
 		# Receive 256 bytes from server
