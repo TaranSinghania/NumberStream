@@ -1,3 +1,5 @@
+# Server program that generates the stream
+
 # Import statementss
 import time
 import random
