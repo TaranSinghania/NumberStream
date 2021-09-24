@@ -1,3 +1,5 @@
+# Client program which accepts stream as input and processes.
+
 # Import statements
 import time
 from socket import *
